@@ -1,0 +1,40 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		// Entender situações do cotidiano… para tomada de decisão
+		// Prof: Juliana Sinnott
+		// Matheus dos Santos Alves
+		
+
+		logico fumante
+		real pessoas
+		
+		escreva("Sejam bem vindos!!")
+		escreva ("\nPara melhor recebe-los pedimos que respondam o nosso questionário")
+
+		escreva ("\nExistem Fumantes ou há pessoas acompanhadas de seus PET's?")
+		leia (fumante)
+		se (fumante)
+		{
+			escreva ("O seu ambiente ideal é a area externa")
+		}
+		senao escreva ("dirija-se ao terreo")
+		
+		escreva("\n\nA reserva é para quantas pessoas?")
+		leia (pessoas)
+		
+		se (pessoas >=5) 
+		{
+			escreva ("Dirija-se ao 1º andar")
+		}
+		senao
+		{
+			escreva ("Dirija-se ao terreo")
+		}
+		escreva ("\nObrigado, volte sempre!")
+	}
+}
+
+
